@@ -54,7 +54,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 Shown by the total summary and lot summary images above, both Manufacturing Lot1 and Lot2 have mean and median values that do not vary substantially from the population mean of 1500 pounds.  With a p-value for Manufacturing Lot1 = 1 and a p-value for Lot2 = 0.61, the null hypothesis fails to be rejected for both Lot1 and Lot2, supporting the means for both lots are statistically similar to the population mean.  But Manufacturing Lot3 has as p-value of 0.042 which indicates that there is statistical evidence which supports that the PSI for this manufacturing lot is slightly different from the population mean of 1500 pounds per square inch.
 
 ### T-Test Comparing All Manufacturing Lots Against Mean PSI
-![](images/Dev3_ttest.png)
+![](images/Dev3_ttest_all.png)
 
 ### T-Test Comparing Manufacturing Lot#1 Against Mean PSI
 ![](images/Dev3_ttest_lot1.png)
