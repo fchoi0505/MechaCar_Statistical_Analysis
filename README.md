@@ -23,6 +23,9 @@ Using the lm() function, a multiple linear regression is performed including all
 1) Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Vehicle length, ground clearance and intercept provide non-random amounts of variance to the mpg values in the dataset based on the p-values calculated for each variable.  That means the vehicle length and ground clearance have statistically significant impact on MPG and, because the intercept is statistically significant, there are other variables and factors that contribute to the variation in MPG that have not been included in the model.
 
+### Multiple Linear Regression Model Summary
+![](images/Dev1_lm_summary.png)
+
 2) Is the slope of the linear model considered to be zero? Why or why not?
 The slope of the linear model is not considered to be zero because the p-value of this model is 5.35e-11, which is much smaller than the presumed significance level of 0.05. Therefore we can reject the null hypothesis of the slope being zero.
 
@@ -32,8 +35,6 @@ The linear model has an r-squared value of 0.71 indicating that approximately 71
 ### Multiple Linear Regression Model
 ![](images/Dev1_lm.png)
 
-### Multiple Linear Regression Model Summary
-![](images/Dev1_lm_summary.png)
 
 
 ## Summary Statistics on Suspension Coils
